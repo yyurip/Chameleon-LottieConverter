@@ -1,0 +1,733 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F52303D82D01F24B001C7084 /* ChameleonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52303D72D01F24B001C7084 /* ChameleonTests.swift */; };
+		F52303DB2D01F25A001C7084 /* ChameleonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52303D92D01F25A001C7084 /* ChameleonUITests.swift */; };
+		F52303DC2D01F25A001C7084 /* ChameleonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52303DA2D01F25A001C7084 /* ChameleonUITestsLaunchTests.swift */; };
+		F53438432D00E7BA000F0A46 /* DotLottieConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53438422D00E7BA000F0A46 /* DotLottieConverter.swift */; };
+		F53438532D01A163000F0A46 /* LottieColorize in Frameworks */ = {isa = PBXBuildFile; productRef = F53438522D01A163000F0A46 /* LottieColorize */; };
+		F57F2C5E2CFA6DB7002CC092 /* BrandsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57F2C5D2CFA6DB7002CC092 /* BrandsContainer.swift */; };
+		F57F2C602CFB7E09002CC092 /* BrandColorConfigurationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57F2C5F2CFB7E09002CC092 /* BrandColorConfigurationViewModel.swift */; };
+		F57F2C622CFB927C002CC092 /* EditBrandColorItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57F2C612CFB927C002CC092 /* EditBrandColorItemView.swift */; };
+		F57F2C642CFBA314002CC092 /* EditingBrandColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57F2C632CFBA314002CC092 /* EditingBrandColorView.swift */; };
+		F57F2C662CFBA337002CC092 /* BrandColorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F57F2C652CFBA337002CC092 /* BrandColorListView.swift */; };
+		F581687F2CFCD72200E7BE8E /* PreviewAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F581687E2CFCD72200E7BE8E /* PreviewAnimationView.swift */; };
+		F58168812CFCD84000E7BE8E /* PreviewAnimationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58168802CFCD84000E7BE8E /* PreviewAnimationViewModel.swift */; };
+		F58168832CFCDE7B00E7BE8E /* ColorizeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58168822CFCDE7B00E7BE8E /* ColorizeHeaderView.swift */; };
+		F58168852CFCDF2500E7BE8E /* FoldersSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58168842CFCDF2500E7BE8E /* FoldersSelectionView.swift */; };
+		F58168872CFCE1B800E7BE8E /* ColorizeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58168862CFCE1B800E7BE8E /* ColorizeViewModel.swift */; };
+		F585841B2CE7F5C1006D5DA8 /* ChameleonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585841A2CE7F5C1006D5DA8 /* ChameleonApp.swift */; };
+		F585841F2CE7F5C2006D5DA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F585841E2CE7F5C2006D5DA8 /* Assets.xcassets */; };
+		F58584222CE7F5C2006D5DA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58584212CE7F5C2006D5DA8 /* Preview Assets.xcassets */; };
+		F58584472CE7F61D006D5DA8 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = F58584462CE7F61D006D5DA8 /* Lottie */; };
+		F585844A2CE7F63C006D5DA8 /* LottieColorize in Frameworks */ = {isa = PBXBuildFile; productRef = F58584492CE7F63C006D5DA8 /* LottieColorize */; };
+		F5AF69022CEBED0C00FD6889 /* BrandColorConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AF69012CEBED0C00FD6889 /* BrandColorConfigurationView.swift */; };
+		F5F172772CF1201A0044F68D /* BrandItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F172762CF1201A0044F68D /* BrandItemView.swift */; };
+		F5F172792CF120310044F68D /* ColorizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F172782CF120310044F68D /* ColorizeView.swift */; };
+		F5F1727E2CF120C40044F68D /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F1727D2CF120C40044F68D /* Brand.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F58584292CE7F5C2006D5DA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F585840F2CE7F5C1006D5DA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F58584162CE7F5C1006D5DA8;
+			remoteInfo = LottieColorizerMacOSApp;
+		};
+		F58584332CE7F5C2006D5DA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F585840F2CE7F5C1006D5DA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F58584162CE7F5C1006D5DA8;
+			remoteInfo = LottieColorizerMacOSApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F52303D72D01F24B001C7084 /* ChameleonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChameleonTests.swift; sourceTree = "<group>"; };
+		F52303D92D01F25A001C7084 /* ChameleonUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChameleonUITests.swift; sourceTree = "<group>"; };
+		F52303DA2D01F25A001C7084 /* ChameleonUITestsLaunchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChameleonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F53438422D00E7BA000F0A46 /* DotLottieConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotLottieConverter.swift; sourceTree = "<group>"; };
+		F57F2C5D2CFA6DB7002CC092 /* BrandsContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandsContainer.swift; sourceTree = "<group>"; };
+		F57F2C5F2CFB7E09002CC092 /* BrandColorConfigurationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandColorConfigurationViewModel.swift; sourceTree = "<group>"; };
+		F57F2C612CFB927C002CC092 /* EditBrandColorItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBrandColorItemView.swift; sourceTree = "<group>"; };
+		F57F2C632CFBA314002CC092 /* EditingBrandColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingBrandColorView.swift; sourceTree = "<group>"; };
+		F57F2C652CFBA337002CC092 /* BrandColorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandColorListView.swift; sourceTree = "<group>"; };
+		F581687E2CFCD72200E7BE8E /* PreviewAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewAnimationView.swift; sourceTree = "<group>"; };
+		F58168802CFCD84000E7BE8E /* PreviewAnimationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewAnimationViewModel.swift; sourceTree = "<group>"; };
+		F58168822CFCDE7B00E7BE8E /* ColorizeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorizeHeaderView.swift; sourceTree = "<group>"; };
+		F58168842CFCDF2500E7BE8E /* FoldersSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoldersSelectionView.swift; sourceTree = "<group>"; };
+		F58168862CFCE1B800E7BE8E /* ColorizeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorizeViewModel.swift; sourceTree = "<group>"; };
+		F58584172CE7F5C1006D5DA8 /* Chameleon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chameleon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F585841A2CE7F5C1006D5DA8 /* ChameleonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChameleonApp.swift; sourceTree = "<group>"; };
+		F585841E2CE7F5C2006D5DA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F58584212CE7F5C2006D5DA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F58584232CE7F5C2006D5DA8 /* ChameleonApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChameleonApp.entitlements; sourceTree = "<group>"; };
+		F58584282CE7F5C2006D5DA8 /* ChameleonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChameleonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58584322CE7F5C2006D5DA8 /* ChameleonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChameleonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5AF69012CEBED0C00FD6889 /* BrandColorConfigurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandColorConfigurationView.swift; sourceTree = "<group>"; };
+		F5F172762CF1201A0044F68D /* BrandItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandItemView.swift; sourceTree = "<group>"; };
+		F5F172782CF120310044F68D /* ColorizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorizeView.swift; sourceTree = "<group>"; };
+		F5F1727D2CF120C40044F68D /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F58584142CE7F5C1006D5DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F585844A2CE7F63C006D5DA8 /* LottieColorize in Frameworks */,
+				F53438532D01A163000F0A46 /* LottieColorize in Frameworks */,
+				F58584472CE7F61D006D5DA8 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58584252CE7F5C2006D5DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F585842F2CE7F5C2006D5DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F53438412D00E7A3000F0A46 /* LottieConverter */ = {
+			isa = PBXGroup;
+			children = (
+				F53438422D00E7BA000F0A46 /* DotLottieConverter.swift */,
+			);
+			path = LottieConverter;
+			sourceTree = "<group>";
+		};
+		F57F2C5A2CFA5DF7002CC092 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F5F1727D2CF120C40044F68D /* Brand.swift */,
+				F57F2C5D2CFA6DB7002CC092 /* BrandsContainer.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F585840E2CE7F5C1006D5DA8 = {
+			isa = PBXGroup;
+			children = (
+				F58584192CE7F5C1006D5DA8 /* Chameleon */,
+				F585842B2CE7F5C2006D5DA8 /* ChameleonTests */,
+				F58584352CE7F5C2006D5DA8 /* ChameleonUITests */,
+				F58584182CE7F5C1006D5DA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F58584182CE7F5C1006D5DA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F58584172CE7F5C1006D5DA8 /* Chameleon.app */,
+				F58584282CE7F5C2006D5DA8 /* ChameleonTests.xctest */,
+				F58584322CE7F5C2006D5DA8 /* ChameleonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F58584192CE7F5C1006D5DA8 /* Chameleon */ = {
+			isa = PBXGroup;
+			children = (
+				F53438412D00E7A3000F0A46 /* LottieConverter */,
+				F57F2C5A2CFA5DF7002CC092 /* Data */,
+				F5F1727A2CF1209A0044F68D /* Colorize */,
+				F5F172752CF1200C0044F68D /* Brand */,
+				F585841A2CE7F5C1006D5DA8 /* ChameleonApp.swift */,
+				F585841E2CE7F5C2006D5DA8 /* Assets.xcassets */,
+				F58584232CE7F5C2006D5DA8 /* ChameleonApp.entitlements */,
+				F58584202CE7F5C2006D5DA8 /* Preview Content */,
+			);
+			path = Chameleon;
+			sourceTree = "<group>";
+		};
+		F58584202CE7F5C2006D5DA8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F58584212CE7F5C2006D5DA8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F585842B2CE7F5C2006D5DA8 /* ChameleonTests */ = {
+			isa = PBXGroup;
+			children = (
+				F52303D72D01F24B001C7084 /* ChameleonTests.swift */,
+			);
+			path = ChameleonTests;
+			sourceTree = "<group>";
+		};
+		F58584352CE7F5C2006D5DA8 /* ChameleonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F52303D92D01F25A001C7084 /* ChameleonUITests.swift */,
+				F52303DA2D01F25A001C7084 /* ChameleonUITestsLaunchTests.swift */,
+			);
+			path = ChameleonUITests;
+			sourceTree = "<group>";
+		};
+		F5F172752CF1200C0044F68D /* Brand */ = {
+			isa = PBXGroup;
+			children = (
+				F5AF69012CEBED0C00FD6889 /* BrandColorConfigurationView.swift */,
+				F57F2C5F2CFB7E09002CC092 /* BrandColorConfigurationViewModel.swift */,
+				F57F2C652CFBA337002CC092 /* BrandColorListView.swift */,
+				F5F172762CF1201A0044F68D /* BrandItemView.swift */,
+				F57F2C612CFB927C002CC092 /* EditBrandColorItemView.swift */,
+				F57F2C632CFBA314002CC092 /* EditingBrandColorView.swift */,
+			);
+			path = Brand;
+			sourceTree = "<group>";
+		};
+		F5F1727A2CF1209A0044F68D /* Colorize */ = {
+			isa = PBXGroup;
+			children = (
+				F58168822CFCDE7B00E7BE8E /* ColorizeHeaderView.swift */,
+				F5F172782CF120310044F68D /* ColorizeView.swift */,
+				F58168862CFCE1B800E7BE8E /* ColorizeViewModel.swift */,
+				F58168842CFCDF2500E7BE8E /* FoldersSelectionView.swift */,
+				F581687E2CFCD72200E7BE8E /* PreviewAnimationView.swift */,
+				F58168802CFCD84000E7BE8E /* PreviewAnimationViewModel.swift */,
+			);
+			path = Colorize;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F58584162CE7F5C1006D5DA8 /* Chameleon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F585843C2CE7F5C2006D5DA8 /* Build configuration list for PBXNativeTarget "Chameleon" */;
+			buildPhases = (
+				F58584132CE7F5C1006D5DA8 /* Sources */,
+				F58584142CE7F5C1006D5DA8 /* Frameworks */,
+				F58584152CE7F5C1006D5DA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chameleon;
+			packageProductDependencies = (
+				F58584462CE7F61D006D5DA8 /* Lottie */,
+				F58584492CE7F63C006D5DA8 /* LottieColorize */,
+				F53438522D01A163000F0A46 /* LottieColorize */,
+			);
+			productName = LottieColorizerMacOSApp;
+			productReference = F58584172CE7F5C1006D5DA8 /* Chameleon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F58584272CE7F5C2006D5DA8 /* ChameleonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F585843F2CE7F5C2006D5DA8 /* Build configuration list for PBXNativeTarget "ChameleonTests" */;
+			buildPhases = (
+				F58584242CE7F5C2006D5DA8 /* Sources */,
+				F58584252CE7F5C2006D5DA8 /* Frameworks */,
+				F58584262CE7F5C2006D5DA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F585842A2CE7F5C2006D5DA8 /* PBXTargetDependency */,
+			);
+			name = ChameleonTests;
+			productName = LottieColorizerMacOSAppTests;
+			productReference = F58584282CE7F5C2006D5DA8 /* ChameleonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F58584312CE7F5C2006D5DA8 /* ChameleonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58584422CE7F5C2006D5DA8 /* Build configuration list for PBXNativeTarget "ChameleonUITests" */;
+			buildPhases = (
+				F585842E2CE7F5C2006D5DA8 /* Sources */,
+				F585842F2CE7F5C2006D5DA8 /* Frameworks */,
+				F58584302CE7F5C2006D5DA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F58584342CE7F5C2006D5DA8 /* PBXTargetDependency */,
+			);
+			name = ChameleonUITests;
+			productName = LottieColorizerMacOSAppUITests;
+			productReference = F58584322CE7F5C2006D5DA8 /* ChameleonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F585840F2CE7F5C1006D5DA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F58584162CE7F5C1006D5DA8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F58584272CE7F5C2006D5DA8 = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+						TestTargetID = F58584162CE7F5C1006D5DA8;
+					};
+					F58584312CE7F5C2006D5DA8 = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+						TestTargetID = F58584162CE7F5C1006D5DA8;
+					};
+				};
+			};
+			buildConfigurationList = F58584122CE7F5C1006D5DA8 /* Build configuration list for PBXProject "Chameleon" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F585840E2CE7F5C1006D5DA8;
+			packageReferences = (
+				F58584452CE7F61D006D5DA8 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				F53438512D01A163000F0A46 /* XCLocalSwiftPackageReference "../LottieColorize" */,
+			);
+			productRefGroup = F58584182CE7F5C1006D5DA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F58584162CE7F5C1006D5DA8 /* Chameleon */,
+				F58584272CE7F5C2006D5DA8 /* ChameleonTests */,
+				F58584312CE7F5C2006D5DA8 /* ChameleonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F58584152CE7F5C1006D5DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58584222CE7F5C2006D5DA8 /* Preview Assets.xcassets in Resources */,
+				F585841F2CE7F5C2006D5DA8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58584262CE7F5C2006D5DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58584302CE7F5C2006D5DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F58584132CE7F5C1006D5DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58168852CFCDF2500E7BE8E /* FoldersSelectionView.swift in Sources */,
+				F5F172772CF1201A0044F68D /* BrandItemView.swift in Sources */,
+				F581687F2CFCD72200E7BE8E /* PreviewAnimationView.swift in Sources */,
+				F57F2C5E2CFA6DB7002CC092 /* BrandsContainer.swift in Sources */,
+				F58168872CFCE1B800E7BE8E /* ColorizeViewModel.swift in Sources */,
+				F57F2C622CFB927C002CC092 /* EditBrandColorItemView.swift in Sources */,
+				F57F2C602CFB7E09002CC092 /* BrandColorConfigurationViewModel.swift in Sources */,
+				F57F2C642CFBA314002CC092 /* EditingBrandColorView.swift in Sources */,
+				F5AF69022CEBED0C00FD6889 /* BrandColorConfigurationView.swift in Sources */,
+				F58168812CFCD84000E7BE8E /* PreviewAnimationViewModel.swift in Sources */,
+				F5F1727E2CF120C40044F68D /* Brand.swift in Sources */,
+				F58168832CFCDE7B00E7BE8E /* ColorizeHeaderView.swift in Sources */,
+				F5F172792CF120310044F68D /* ColorizeView.swift in Sources */,
+				F57F2C662CFBA337002CC092 /* BrandColorListView.swift in Sources */,
+				F585841B2CE7F5C1006D5DA8 /* ChameleonApp.swift in Sources */,
+				F53438432D00E7BA000F0A46 /* DotLottieConverter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F58584242CE7F5C2006D5DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52303D82D01F24B001C7084 /* ChameleonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F585842E2CE7F5C2006D5DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F52303DB2D01F25A001C7084 /* ChameleonUITests.swift in Sources */,
+				F52303DC2D01F25A001C7084 /* ChameleonUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F585842A2CE7F5C2006D5DA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F58584162CE7F5C1006D5DA8 /* Chameleon */;
+			targetProxy = F58584292CE7F5C2006D5DA8 /* PBXContainerItemProxy */;
+		};
+		F58584342CE7F5C2006D5DA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F58584162CE7F5C1006D5DA8 /* Chameleon */;
+			targetProxy = F58584332CE7F5C2006D5DA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F585843A2CE7F5C2006D5DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F585843B2CE7F5C2006D5DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F585843D2CE7F5C2006D5DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Chameleon/ChameleonApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chameleon/Preview Content\"";
+				DEVELOPMENT_TEAM = B62BK8CK4M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deliveryhero.chameleonApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F585843E2CE7F5C2006D5DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Chameleon/ChameleonApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Chameleon/Preview Content\"";
+				DEVELOPMENT_TEAM = B62BK8CK4M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deliveryhero.chameleonApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F58584402CE7F5C2006D5DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B62BK8CK4M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deliveryhero.LottieColorizerMacOSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chameleon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chameleon";
+			};
+			name = Debug;
+		};
+		F58584412CE7F5C2006D5DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B62BK8CK4M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deliveryhero.LottieColorizerMacOSAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chameleon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chameleon";
+			};
+			name = Release;
+		};
+		F58584432CE7F5C2006D5DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B62BK8CK4M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deliveryhero.LottieColorizerMacOSAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = LottieColorizerMacOSApp;
+			};
+			name = Debug;
+		};
+		F58584442CE7F5C2006D5DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B62BK8CK4M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.deliveryhero.LottieColorizerMacOSAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = LottieColorizerMacOSApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F58584122CE7F5C1006D5DA8 /* Build configuration list for PBXProject "Chameleon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F585843A2CE7F5C2006D5DA8 /* Debug */,
+				F585843B2CE7F5C2006D5DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F585843C2CE7F5C2006D5DA8 /* Build configuration list for PBXNativeTarget "Chameleon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F585843D2CE7F5C2006D5DA8 /* Debug */,
+				F585843E2CE7F5C2006D5DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F585843F2CE7F5C2006D5DA8 /* Build configuration list for PBXNativeTarget "ChameleonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58584402CE7F5C2006D5DA8 /* Debug */,
+				F58584412CE7F5C2006D5DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F58584422CE7F5C2006D5DA8 /* Build configuration list for PBXNativeTarget "ChameleonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58584432CE7F5C2006D5DA8 /* Debug */,
+				F58584442CE7F5C2006D5DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		F53438512D01A163000F0A46 /* XCLocalSwiftPackageReference "../LottieColorize" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../LottieColorize;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F58584452CE7F61D006D5DA8 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = exactVersion;
+				version = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F53438522D01A163000F0A46 /* LottieColorize */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LottieColorize;
+		};
+		F58584462CE7F61D006D5DA8 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F58584452CE7F61D006D5DA8 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+		F58584492CE7F63C006D5DA8 /* LottieColorize */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LottieColorize;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F585840F2CE7F5C1006D5DA8 /* Project object */;
+}
